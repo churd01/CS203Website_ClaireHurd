@@ -1,0 +1,39 @@
+---
+title: "Professional Précis"
+subtitle: "Author: Claire Hurd"
+---
+
+# About the Author
+
+Hello, my name is Claire, and I am looking forward continue working and brainstroming with everyone.
+
+
+# Week 1
+
+## SE1
+
+#### Summary
+
+This is where you will write the summary for the reading.
+
+#### Reflection
+
+This is where you will write a reflection for the reading.
+
+#### Use-Case
+
+This is where you will write about how topics covered in the reading can be implemented to the Chasten project.
+
+## FB1
+
+#### Summary
+
+This is where you will write the summary for the reading.
+
+#### Reflection
+
+This is where you will write a reflection for the reading.
+
+#### Use-Case
+
+This is where you will write about how topics covered in the reading can be implemented to the Chasten project.
