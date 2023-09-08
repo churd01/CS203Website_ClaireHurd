@@ -5,7 +5,7 @@ subtitle: "Author: Claire Hurd"
 
 # About the Author
 
-Hello, my name is Claire, and I am looking forward continue working and brainstroming with everyone.
+Hello, my name is Claire, and I am looking forward continue working and brainstroming with everyone to get project up and running!
 
 
 # Week 1
@@ -14,26 +14,42 @@ Hello, my name is Claire, and I am looking forward continue working and brainstr
 
 #### Summary
 
-This is where you will write the summary for the reading.
+"Software engineering" consists of may parts: Including writing code, knowing the tools, process, and organization used to build and maintain code over time/ As well as knowing how to integrate programming integrated over time. The chapter also discusses 3 things to keep in mind while designing, building, and implementing code:
+1. Time and Change: How the code with adapt over the length of its life
+    - Something that works today may not work tomorrow (or 1 week from now, 1 month, etc.)
+2. Scale and Growth: How organization will need to adapt as it evolves
+3. How an organization makes, decisions based on the lessons of Time & Change, and Scale & Growth
+
+This chapter overviews that this is solely Google's Experience and may not be applicable. However because google is a long-lived database they stand as a good stress test for best practicices for Software Engineering.
+
+
+
 
 #### Reflection
 
-This is where you will write a reflection for the reading.
+I thought that this was interesting in the regards that the authors from Google are trying to offer the best advice and practices when it comes to software engineering. Especially working in a team maintaining a consistent goal across the board will help push the team in the right direction. Especially since one thing that someone wants may not be something that another person wants but it should be about if the code holds up to the stress test including time and change, as well as scale and growth. These two things impact how a project is built immensly and is a good thing to keep in mind when working in teams.
 
 #### Use-Case
 
-This is where you will write about how topics covered in the reading can be implemented to the Chasten project.
+Similarly to my reflection, maintaining the goals of ensuring the code will work as time continues and changes are made to software, dependencies, culture etc. is important when working together as a team, especially in Chasten. Additionally working towards the goal that as the community using Chasten increases, the code is there to support that.
 
 ## FB1
 
 #### Summary
 
-This is where you will write the summary for the reading.
+This chapter primarily focuses on basic software testing. Including using automated testing, making it more compact, preventing rounding errors and doing tests for more concrete values. To make code more compact include ```assert```. To prevent rounding errors include ```EPSILON``` to ensure that the asserted answer is less than EPSILON. To do more tests include x as the input and y as the expected output that is less than EPSILON. Example:
+
+```python
+def assertEquals(x, y, epsilon=1e-8):
+    assert abs(x - y) < epsilon
+```
+
+Additionally using the Timer module to measure elapse time this is done to measure the efficiency of the code. Overall the goal for testing is to execute a program in order to find bugs in out program. Additionally, test exectution, generation and  checking of test restults can be fully automated into the code. However. the only downside is that testing can be incomplete and provides no 100% garuntee that code is completely free of errors. That does not mean that as programmers whe cannot do everything in our power to make sure that our code is accurate, effecient, and bug free.
 
 #### Reflection
 
-This is where you will write a reflection for the reading.
+Overall, this reading was really useful in helping layout how testing works and the pros and cons to different types of methods of testing. I think it help me understand how to build test cases more and how to make sure they are producing the right information that I need them to produce.
 
 #### Use-Case
 
-This is where you will write about how topics covered in the reading can be implemented to the Chasten project.
+Testing will be useful through out the implementation of Chasten. As we have discussed in class, every implentation of code requires a test case to make sure that it is working to the degree that we need it to be working in. This may also include efficency and is where the Time module can be incorporated in Chasten.
